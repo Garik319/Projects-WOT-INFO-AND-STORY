@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--MY styles-->
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+     <!--Container-->
+    <div class="container">
+       <!--Container navbar-->
+      <div class="navbar-container">
+          <!--Container image header-->
+        <img src="assets/img/mylt.tanks.jpg" class="image-brend-left" alt="">
+        <img src="assets/img/mylt.tankszerkalo.jpg" class="image-brend-rigth" alt="">
+        <h1 class="name-header">WOT-info and story</h1>
+        <p style="text-align: center;">
+          Информационный портал о мире World of Tanks
+        </p>
+
+        <div class="margin_8"></div>
+          <!--Container button header-->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html" style="color: white;">Главная</a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#" style="color: white;">Обратная связь</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+              <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Ваш запрос">
+                </div>
+                <button type="submit" style="height: 34px;" class="btn btn-default">Поиск</button>
+              </form>
+
+                <!--Container Button group-->
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="assets/img/USSR.png" class="image_btn" alt="СССР"><p class="name-button">СССР<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="lungs-tanks-USSR.html">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/Germany.png" class="image_btn" alt="Германия"><p class="name-button">Германия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="lungs-tanks-Germany.html">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/USA.png" class="image_btn" alt="США"><p class="name-button">США<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/china.png" class="image_btn" alt="Китай"><p class="name-button">Китай<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/france.png" class="image_btn" alt="Франция"><p class="name-button">Франция<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/United_Kingdom.png" class="image_btn" alt="Британия"><p class="name-button">Британия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/japan.png" class="image_btn" alt="Япония"><p class="name-button">Япония<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/chehoslovakiya.png" class="image_btn" alt="Чехия"><p class="name-button">Чехия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/shvece.png" class="image_btn" alt="Швеция"><p class="name-button">Швеция<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/poland.png" class="image_btn" alt="Польша"><p class="name-button">Польша<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/italy.png" class="image_btn" alt="Италия"><p class="name-button">Италия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+              </div>                          
+            </div>
+          </div>
+      </div>
+
+      <div class="margin_8"></div>
+
+      <!--Container content-->
+      <div class="wrapper">
+          <div class="container">
+              <div class="row">
+                    <a href="lungs-tanks-Germany.html"><h1>Легкие Танки Германия</h1></a>
+                    <img class="nation_image" src="assets/img/Germany.png" alt="">
+                    <p class="text-center"> На данной странице вы найдете все Легкие Танки ветки Германии в том числе Premium. </p>
+                    <hr>
+
+
+                    <!--
+                        <div class="btn-group" style="position: relative; left: 50%;transform: translate(-50%, 0);">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <p class="name-button">Выбор по уровню<span class="caret"></span></p>
+                              </button>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Level I</a></li>
+                                <li><a href="#">Level II</a></li>
+                                <li><a href="#">Level III</a></li>
+                                <li><a href="#">Level IV</a></li>
+                                <li><a href="#">Level V</a></li>
+                                <li><a href="#">Level VI</a></li>
+                                <li><a href="#">Level VII</a></li>
+                                <li><a href="#">Level VIII</a></li>
+                                <li><a href="#">Level IX</a></li>
+                                <li><a href="#">Level X</a></li>
+                            </ul>
+                        </div>
+                      <hr>
+                      -->
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>LEICHTTRAKTOR I ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/LEICHTTRAKTOR-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Leichttraktor (с нем. — «лёгкий трактор») — германский лёгкий танк 1930-х годов. Также известен под названием Kleintraktor и VK31. <br>
+                                        LEICHTTRAKTOR в игре <br>
+                                        Начальный танк, I ур. | Германия | исследования не требует. Даётся в начале игры. <br>
+                                        Предшественник лёгкого танка Pz.Kpfw. II. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. 35 (T) II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. 35 (T)-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Разработан компанией Škoda в 1935 году. Состоял на вооружении чехословацкой армии под обозначением LT vz. 35. Во время оккупации Чехии захваченные танки получили наименование Pz.Kpfw. 35 (t) и поступили на вооружение Вермахта. Активно использовались до конца 1941 года в составе немецкой 1-й лёгкой дивизии, а после её переформирования — 6-й танковой дивизии. Всего было выпущено 434 машины. <br>
+                                        PZ.KPFW. 35 (T) в игре <br>
+                                        Лёгкий танк | Германия | II ур.<br>
+                                        КОЛЛЕКЦИОННАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. II II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/Pz.Kpfw._II_scr_3.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Pz.Kpfw. II (полное название — Panzerkampfwagen II, также известен как Sd.Kfz. 121 и Т-II) — немецкий лёгкий танк времён Второй мировой войны. <br>
+                                        PZ.KPFW. II в игре <br>
+                                        Лёгкий танк | Германия | II ур. <br>
+                                        Открывает такие танки, как Pz.Kpfw. III Ausf. E, Pz.Kpfw. II Ausf. G.<br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. I II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. I-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Panzerkampfwagen I (Pz.Kpfw.I, Pz.I; транслитерируется как Панцеркампфваген I) — германский лёгкий танк 1930-х годов. В западной литературе распространено также название Panzer I (Панцер I), в советской литературе традиционно обозначался как Т-1. По германской ведомственной системе обозначений военной техники носил индекс Sd.Kfz.101. <br>
+                                        PZ.KPFW. I в игре <br>
+                                        Лёгкий танк | Германия | II ур. <br>
+                                        КОЛЛЕКЦИОННАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>MKA <span style="color: gold;">(Premium)</span> II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/MKA-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Танк для экспортных поставок, разработанный компанией Krupp. Первый прототип танка поступил на испытания в 1940 году. Однако несмотря на успешные испытания, проект был закрыт, так как не заинтересовал потенциальных покупателей. Всего был построен один прототип, который впоследствии был разобран на металл. <br>
+                                        MKA в игре <br>
+                                        Лёгкий танк | Германия | II ур.<br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. 38H 735 (F) <span style="color: gold;">(Premium)</span> II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. 38H 735 (F)-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Немецкий премиумный лёгкий танк второго уровня, представляет собой трофейный французский танк Hotchkiss, переоборудованный под немецкие стандарты — изменена командирская башенка, установлена немецкая рация. Отличается довольно точным орудием, лучшим среди легких танков своего уровня, обзором и мощным бронированием, а также довольно низкой подвижностью. <br>
+                                        PZ.KPFW. 38H 735 (F) в игре <br>
+                                        Прозвища в игре - Гоча, мини-Маус, Песочный маус <br>
+                                        Лёгкий танк | Германия | II ур. <br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Pz.Kpfw. II Ausf. D <span style="color: gold;">(Premium)</span> II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. II AUSF. D-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Быстроходная модификация Pz. II для оснащения лёгких дивизий, созданных на базе кавалерийских. Танк Pz.Kpfw. II Ausf. D имел совершенно новый корпус и ходовую часть, а башня с вооружением была заимствована у Ausf. С. Ходовая часть включала восемь сдвоенных опорных катков большого диаметра с индивидуальной торсионной подвеской без поддерживающих катков. Танки с усиленными элементами подвески и с новыми ведущими и направляющими колёсами получили обозначение Ausf. Е. По разным данным, произведено 200–250 машин модификаций D и E. <br>
+                                        Pz.Kpfw. II Ausf. D в игре <br>
+                                        Лёгкий танк | Германия | II ур. <br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. 38 (T) III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. 38 (T)-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Panzerkampfwagen 38 (т) , первоначально известный как ЧКД уг LT. 38 - это танк, спроектированный в 1930-х годах и широко использовавшийся во время Второй мировой войны . Этот тип, разработанный в Чехословакии компанией ČKD, был принят нацистской Германией после аннексии Чехословакии . С немецкой армией и другими войсками Оси этот тип участвовал в вторжениях в Польшу, Францию ​​и СССР. <br>
+                                        PZ.KPFW. 38 (T) в игре <br>
+                                        Лёгкий танк | Германия | III ур.<br>
+                                        КОЛЛЕКЦИОННАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Pz.Kpfw. III Ausf. E III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. III AUSF. E-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Заказ на создание боевой гусеничной машины массой 15 тонн с пушечным вооружением поступил ещё в 1935 году. И хотя масса первой крупносерийной машины Pz.Kpfw. III Ausf. E уже достигла 19,5 тонн, её конструкция была признана удачной, и количество машин в серии достигло 96. Последующие модификации выпускались ещё более крупными партиями, в результате чего Pz. Kpfw. III стал самым массовым танком Вермахта. <br>
+                                        Pz.Kpfw. III Ausf. E в игре <br>
+                                        Лёгкий танк | Германия | III ур.<br>
+                                        Предшественник средних танков Pz.Kpfw. III Ausf. J и ПТ-САУ StuG III Ausf. B. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. I AUSF. C III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. I AUSF. C-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Заказ на разработку нового танка был выдан в 1939 году. Первоначально машина разрабатывалась как быстроходный разведывательный танк для воздушно-десантных частей. В июле 1942 года было начато производство танка. В начале 1943 года две машины поступили на вооружение в 1-ю танковую дивизию для испытания в бою. Остальные 38 машин были переданы в состав 58-го резервного танкового корпуса летом 1944 года. <br>
+                                        PZ.KPFW. I AUSF. C в игре <br>
+                                        Прозвище в игре - Таракан, ПЦЦ <br>
+                                        Лёгкий танк | Германия | III ур.<br>
+                                        КОЛЛЕКЦИОННАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Pz.Kpfw. II Ausf. G III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. II AUSF. G-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Быстрый и манёвренный танк с неплохим обзором и отличной рацией. Обладает только автоматическим вооружением, что вынуждает атаковать с ближних дистанций. На выбор имеется слабое скорострельное 20 мм орудие и 30 мм пушка с отличным пробитием, но долгой перезарядкой. <br>
+                                        Pz.Kpfw. II Ausf. G в игре <br>
+                                        Лёгкий танк | Германия | III ур. <br>
+                                        Предшественник лёгкого танка Pz.Kpfw. II Luchs. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. II AUSF. J <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. II AUSF. J-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Разведывательный танк с усиленным бронированием. Являлся дальнейшим развитием Pz.Kpfw. II. В октябре 1939 года был сделан заказ на установочную партию. В июле 1940 года был построен первый прототип. В 1943–1944 гг. семь машин участвовали в боевых действиях на Восточном фронте в составе 12-й танковой дивизии. Всего было произведено 22 машины. <br>
+                                        PZ.KPFW. II AUSF. J игре <br>
+                                        Прозвищев игре - Йода, Джедай <br>
+                                        Лёгкий танк | Германия | III ур. <br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. T 15 <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. T 15-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Экспериментальный лёгкий танк, разработка которого велась на заводе Škoda в 1941–1943 гг. Всего было произведено 5 опытных машин. Серийно не выпускался. На вооружении не состоял. <br>
+                                        PZ.KPFW. T 15 в игре <br>
+                                        Лёгкий танк | Германия | III ур. <br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>43 M. Toldi III <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/toldi_iii-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Модификация лёгкого танка 38М Toldi I, названного в честь венгерского рыцаря Миклоша Толди. Отличался от предыдущих версий усиленным бронированием и увеличенным боекомплектом. В период Второй мировой войны было выпущено около 12 машин. <br>
+                                        43 M. Toldi III в игре <br>
+                                        Лёгкий танк | Германия | III ур. <br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>PZ.KPFW. II LUCHS IV ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. II LUCHS-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Основными отличиями данной машины от Pz.Kpfw. II Ausf. С являлись новый корпус, башня и ходовая с шахматным расположением опорных катков. Данная разведывательная машина обладала высокими характеристиками, однако в связи с дороговизной был произведён всего 131 танк модификации L. <br>
+                                        PZ.KPFW. II LUCHSв игре <br>
+                                        Прозвище в игре - Луч, Лучик <br>
+                                        Лёгкий танк | Германия | IV ур.<br>
+                                        Предшественник лёгкого танка VK 1602 Leopard. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Pz.Kpfw. 38 (t) n.A. IV ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/PZ.KPFW. 38 (T) N.A.-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Разработка велась компанией BMM с июля 1940 года в рамках программы создания нового лёгкого разведывательного танка. Основой для проекта послужил Pz.Kpfw. 38 (t). Была применена сварка корпуса, установлены новый двигатель и переработанная коробка передач. В ходе испытаний максимальная скорость машины достигла 64 км/ч. Работы по танку были свёрнуты в пользу VK 1303. Было выпущено пять опытных образцов. <br>
+                                        Pz.Kpfw. 38 (t) n.A. в игре <br>
+                                        Лёгкий танк | Германия | IV ур. <br>
+                                        КОЛЛЕКЦИОННАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>VK 16.02 LEOPARD V ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/VK 16.02 LEOPARD-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Легкий танк VK 16.02 Leopard был запланированной немецкой разведывательной машиной, разработанной с середины 1941 года по январь 1943 года, а серийное производство запланировано на апрель 1943 года, но от проекта отказались до того, как в январе того же года был завершен первый прототип . Причина в том, что она не соответствовала требованиям к машине 1944 года. <br>
+                                        VK 16.02 LEOPARD в игре <br>
+                                        Прозвище в игре - Лео, Мини-пантера <br>
+                                        Лёгкий танк | Германия | V ур.<br>
+                                        Предшественник лёгкого танка VK 28.01 <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>VK 28.01 VI ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/VK 28.01-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Разведывательный танк, разрабатывавшийся компанией Daimler-Benz. В металле проект реализован не был. <br>
+                                        VK 28.01 в игре <br>
+                                        Прозвище в игре - Толстопард, Толстый <br>
+                                        Лёгкий танк | Германия | VI ур.<br>
+                                        Предшественник танка Spähpanzer SP I C. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>SPÄHPANZER SP I C VII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/SP-1-C-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Spähpanzer SP IC ( также известный как SP1C. В « SP » в СП СК не хватает Spähpanzer, немецкий для « скаутов Tank ») был экспериментальной моделью западногерманской разведки разведчиком легкий танк с противотанковым компонентов. Он разрабатывался с 1956 года с целью увеличения противотанковых возможностей разведывательных танковых дивизионов, но в итоге проект был отклонен. Есть две версии прототипа SP IC. <br>
+                                        SPÄHPANZER SP I C в игре <br>
+                                        Прозвище в игре - Шпиц, Шушпанцер, Шпик <br>
+                                        Лёгкий танк | Германия | VII ур.<br>
+                                        Предшественник танка HWK 12 <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>HWK 12 VIII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/HWK 12-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Серия лёгких гусеничных бронетранспортёров HWK 10 разрабатывалась компанией Henschel-Werke в конце 1950-х – первой половине 1960-х годов. Машины разрабатывались для экспортных поставок. Первый прототип бронетранспортёра HWK 11 был создан в 1963 году, а позже 40 машин были поставлены в Мексику. Также было создано два прототипа разведывательной машины HWK 13. На базе общего шасси планировалось создание танка HWK 12, однако прототип построен не был <br>
+                                        HWK 12 в игре <br>
+                                        Лёгкий танк | Германия | VIII ур.<br>
+                                        Предшественник танка SPÄHPANZER RU 251 <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>HWK 30 <span style="color: gold;">(Premium)</span> VIII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/HWK30-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Машина задумывалась как развитие проекта Ru 251 и предполагалась для экспортных поставок, в частности в Мексику. Она не отличалась от Ru 251 вооружением и бронезащитой, но имела удлинённую на один каток базу. Работы были прекращены на стадии проектирования. <br>
+                                        HWK 30 в игре <br>
+                                        Лёгкий танк | Германия | VIII ур.<br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>leKpz M 41 90 mm GF <span style="color: gold;">(Premium)</span> VIII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/LEKPZ M 41 90 MM GF-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Немецкий вариант модернизации американского лёгкого танка М41A1 Walker Bulldog. Изменения главным образом коснулись орудия 76 mm gun M32, которое рассверлили до 90 мм и укоротили на 425 мм. <br>
+                                        leKpz M 41 90 mm GF в игре <br>
+                                        Прозвище в игре - Чёрный Бульдог <br>
+                                        Лёгкий танк | Германия | VIII ур.<br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>LEKPZ M 41 90 MM <span style="color: gold;">(Premium)</span> VII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/lekpz-m-41-90-mm-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Немецкий вариант модернизации американского лёгкого танка М41A1 Walker Bulldog. Изменения главным образом коснулись орудия 76 mm gun M32, которое рассверлили до 90 мм и укоротили на 425 мм. <br>
+                                        LEKPZ M 41 90 MM в игре <br>
+                                        Лёгкий танк | Германия | VIII ур.<br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>SPÄHPANZER RU 251 IX ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/SPÄHPANZER RU 251-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Был построен компанией Henschel в 1964 году по программе замены устаревающих танков M41 Walker Bulldog в немецкой армии, где ими вооружались разведывательные батальоны танковых дивизий и другие подразделения. Базой послужила ПТ-САУ Kanonenjagdpanzer 4–5. Машина не была выпущена в серийное производство, но некоторые технические решения использовались в проектировании других танков. Количество изготовленных прототипов неизвестно. <br>
+                                        SPÄHPANZER RU 251 в игре <br>
+                                        Прозвище в игре - Рушка <br>
+                                        Лёгкий танк | Германия | IX ур.<br>
+                                        Предшественник танка Rheinmetall Panzerwagen. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>RHEINMETALL PANZERWAGEN X ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-Germany/lungs-tanks-Germany/RHEINMETALL PANZERWAGEN-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        8 июня 1957 года фирма Rheinmetall зарегистрировала патент на новый лёгкий танк с вращающейся башней и качающимся на цапфах орудием. Предлагаемая конструкция позволяла оснащать даже лёгкие машины мощными 90 и 105-мм пушками, сохраняя минимальную высоту машины. Не имея своего шасси для постройки танков, Rheinmetall предложила свою башню другим заводам. Данная машина – проект на базе ходовой части от Hanomag и Henschel. Прототип построен не был. <br>
+                                        RHEINMETALL PANZERWAGEN в игре <br>
+                                        Лёгкий танк | Германия | X ур.<br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>    
+                    
+              </div>
+          </div>
+      </div>
+
+      <div class="margin_8"></div>
+
+      <h2 style="text-align: center;">Отзывы</h2>
+      <hr>
+      <h5 style="text-align: center;">Если ты уже дошел сюда то пожалуйста оставь отзыв.</h5>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Ваше имя" class="form-control input-lg">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control"></textarea>
+        </div>
+        <button class="btn btn-lg ">Отправить</button>
+      </form>
+      
+      <div class="margin_8"></div>
+ 
+      <!--Container footer-->
+      <footer>
+        <div class="container">
+          <p class="text-center"><a href="http://ru.wh-db.com">WH-DB.COM</a></p>
+
+        </div>
+      </footer>
+    
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

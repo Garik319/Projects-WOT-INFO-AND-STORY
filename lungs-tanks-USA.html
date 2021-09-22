@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--MY styles-->
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+     <!--Container-->
+    <div class="container">
+       <!--Container navbar-->
+      <div class="navbar-container">
+          <!--Container image header-->
+        <img src="assets/img/mylt.tanks.jpg" class="image-brend-left" alt="">
+        <img src="assets/img/mylt.tankszerkalo.jpg" class="image-brend-rigth" alt="">
+        <h1 class="name-header">WOT-info and story</h1>
+        <p style="text-align: center;">
+          Информационный портал о мире World of Tanks
+        </p>
+
+        <div class="margin_8"></div>
+          <!--Container button header-->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html" style="color: white;">Главная</a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#" style="color: white;">Обратная связь</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+              <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Ваш запрос">
+                </div>
+                <button type="submit" style="height: 34px;" class="btn btn-default">Поиск</button>
+              </form>
+
+                <!--Container Button group-->
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="assets/img/USSR.png" class="image_btn" alt="СССР"><p class="name-button">СССР<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="lungs-tanks-USSR.html">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/Germany.png" class="image_btn" alt="Германия"><p class="name-button">Германия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="lungs-tanks-Germany.html">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/USA.png" class="image_btn" alt="США"><p class="name-button">США<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/china.png" class="image_btn" alt="Китай"><p class="name-button">Китай<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/france.png" class="image_btn" alt="Франция"><p class="name-button">Франция<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/United_Kingdom.png" class="image_btn" alt="Британия"><p class="name-button">Британия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/japan.png" class="image_btn" alt="Япония"><p class="name-button">Япония<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/chehoslovakiya.png" class="image_btn" alt="Чехия"><p class="name-button">Чехия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/shvece.png" class="image_btn" alt="Швеция"><p class="name-button">Швеция<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+
+              <div class="btn-group btn-group-justified" role="group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/poland.png" class="image_btn" alt="Польша"><p class="name-button">Польша<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/img/italy.png" class="image_btn" alt="Италия"><p class="name-button">Италия<span class="caret"></span></p>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Легкие Танки</a></li>
+                    <li><a href="#">Средние Танки</a></li>
+                    <li><a href="#">Тяжелые Танки</a></li>
+                    <li><a href="#">ПТ-САУ</a></li>
+                    <li><a href="#">САУ</a></li>
+                  </ul>
+                </div>
+              </div>                          
+            </div>
+          </div>
+      </div>
+
+      <div class="margin_8"></div>
+
+      <!--Container content-->
+      <div class="wrapper">
+          <div class="container">
+              <div class="row">
+                    <a href="lungs-tanks-USSR.html"><h1>Легкие Танки СССР</h1></a>
+                    <img class="nation_image" src="assets/img/USSR.png" alt="">
+                    <p class="text-center"> На данной странице вы найдете все Легкие Танки ветки СССР в том числе Premium. </p>
+                    <hr>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>МС-1 (Т-18) I ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/ms-1-wot-1.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-18 (МС-1 — малый сопровождающий) — советский лёгкий танк непосредственной поддержки пехоты 1920-х годов. Создан в 1925—1927 годах. <br>
+                                        МС-1 в игре <br>
+                                        Прозвище в игре - Машина стерти <br>
+                                        Начальный танк, I ур. исследования не требует. Даётся в начале игры. <br>
+                                        Предшественник лёгких танков БТ-2 и Т-60. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>БТ-2 II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/by-2wot3.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Советский колёсно-гусеничный танк 1930-х годов. Первый танк в линейке советских лёгких танков БТ. <br>
+                                        БТ-2 в игре <br>
+                                        Лёгкий танк | СССР | II ур.<br>
+                                        Предшественник лёгкого танка III уровня БТ-5 
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-26 II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t-26 logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-26 — советский лёгкий танк. Cамый многочисленный танк Красной и финской Армий к началу Великой Отечественной войны и Армии испанской Республики гражданской войны в Испании, второй по количеству выпущенных после Т-34 советский танк 1930-х — 1940-х годов[4]. Создан на основе английского танка Vickers Mk E (также известного как «Виккерс 6-тонный»), закупленного в 1930 году. Принят на вооружение в СССР в 1931 году. <br>
+                                        Т-26 в игре <br>
+                                        Эта машина является коллекционной техникой и не требует исследования.<br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-60 II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/T-60_0-min.PNG" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-60 — советский лёгкий танк периода Второй мировой войны. Разработан в августе 1941 года на московском заводе № 37 под руководством Николая Александровича Астрова, ведущего разработчика всей отечественной линейки лёгких танков того периода. В сентябре того же года Т-60 был принят на вооружение <br>
+                                        Т-60 в игре <br>
+                                        Лёгкий танк | СССР | II ур.<br>
+                                        Предшественник лёгкого танка Т-70. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-45 <span style="color: gold;">(Premium)</span> II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t-45_2.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Модернизированная версия танка Т-60. От оригинала отличалась усиленным бронированием и башней, в которую устанавливалось 45-мм орудие образца 1938 года и спаренный пулемёт ДТ. Однако к июню 1942 года машина была признана устаревшей по сравнению с Т-70, и серийный выпуск налажен не был. Тем не менее опытный образец был отправлен на фронт. <br>
+                                        Т-45 в игре <br>
+                                        Лёгкий танк | СССР | II ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Тетрарх <span style="color: gold;">(Premium)</span> II ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/tetrarh_pch.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Советский подарочный лёгкий танк второго уровня. Обладает отличным вооружением, хорошей скоростью и мощной радиостанцией. Среди недостатков — малый боезапас, слабая броня, плохой обзор и проблемы с проходимостью на слабых и топких грунтах. <br>
+                                        Тетрарх в игре <br>
+                                        Лёгкий танк | СССР | II ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>БТ-5 III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/bt-5 wot.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        БТ-5 — советский лёгкий колёсно-гусеничный танк. Серийный танк семейства БТ («Быстроходные танки»). Принят на вооружение в соответствии с военной доктриной, определившей преимущества скоростных крейсерских танков, способных в кратчайшие сроки покрывать большие расстояния и действовать на оперативных просторах. Выпускался серийно ХПЗ в 1933—1935 годах. <br>
+                                        БТ-5 в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Предшественник лёгкого танка БТ-7. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-46 III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t46logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-46 — советский опытный лёгкий колёсно-гусеничный танк 1930-х годов. Создавался как танк поддержки пехоты, при этом широко использовались узлы и агрегаты лёгкого танка Т-26. Было изготовлено несколько образцов, проходивших в 1937 году войсковые испытания, показавшие в целом положительные результаты. Однако из-за ряда недостатков конструкции и высокой стоимости производство танков было прекращено. Изготовленные танки ограниченно применялись в боевых действиях в период Зимней и Великой Отечественной войн. <br>
+                                        Т-46 в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Эта машина является коллекционной техникой и не требует исследования. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-70 III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t70logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-70 — советский лёгкий танк периода Второй мировой войны. Разработан в октябре — ноябре 1941 года на Горьковском автомобильном заводе (ГАЗ) под руководством Николая Александровича Астрова, ведущего разработчика всей отечественной линейки лёгких танков того периода. <br>
+                                        Т-70 в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Предшественник ПТ-САУ СУ-76М. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>БТ-СВ <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/bt_sv-logo.png" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        В 1937 году на заводе № 48 под руководством Н. Ф. Цыганова началась разработка танка с улучшенной броневой защитой на базе БТ-7. Изготовленная в конце года машина получила обозначение БТ-СВ-2 «Черепаха». <br>
+                                        БТ-СВ в игре <br>
+                                        Прозвище «Черепаха» <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>ЛТП <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/ltp.logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Советский подарочный лёгкий танк третьего уровня. Не отличается скоростью, но очень маневренный. В силу малых габаритов подходит на роль пассивного светляка. <br>
+                                        ЛТП в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>М3 лёгкий <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/m3.laite.logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Советский премиумный лёгкий танк третьего уровня. Является предтоповой версией американского M3 Stuart. Обладает высокой скоростью, но слабым вооружением. <br>
+                                        М3 лёгкий в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>БТ-7 артиллерийский <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/bt-7 art.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        БТ-7А (БТ-7 Артиллерийский)— одна из модификаций советского танка БТ-7. Представляла собой танк артиллерийской поддержки, вооружённый 76-мм пушкой КТ в башне увеличенных размеров. Малоизвестный экспериментальный танк. <br>
+                                        БТ-7 артиллерийский в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-116 <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t-116-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        В 1937 году начальник АБТУ Бокис инициировал создание нового разведывательного танка. В тактико-технических требованиях, выданных осенью 1937 года, указывалось, что танк не должен быть плавающим и иметь колёсно-гусеничный движитель по типу БТ. <br>
+                                        Т-116 в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-127 <span style="color: gold;">(Premium)</span> III ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t127-logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Советский премиумный лёгкий танк третьего уровня. Проект танка, разрабатывавшийся в рамках создания Т-50, но так и не покинувший стадии чертежей. В игре отличается хорошим (за счёт наклона) бронированием, приемлемым вооружением и хорошей динамикой. Однако в качестве света малопригоден из-за низкой скорости и слабой рации. <br>
+                                        Т-127 в игре <br>
+                                        Лёгкий танк | СССР | III ур.<br>
+                                        Акционный премиум танк. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>БТ-7 IV ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/bt-7wot.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        БТ-7 — советский колёсно-гусеничный танк периода 1930-1940-х годов. Третий танк семейства советских лёгких танков БТ («Быстроходный танк»). В отличие от своих предшественников БТ-2 и БТ-5, имел сварной корпус несколько изменённой формы и новый двигатель. Вооружение аналогично БТ-5. Выпускался, как и БТ-5, в варианте с радиостанцией и без радиостанции. Всего произведено 5763 (4800 БТ-7, 155 БТ-7А, 790 БТ-7М и 18 финских BT-42) машины. <br>
+                                        БТ-7 в игре <br>
+                                        Лёгкий танк | СССР | IV ур.<br>
+                                        Предшественник лёгкого танка А-20 <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-80 IV ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t-80logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-80 — советский лёгкий танк периода Великой Отечественной войны, средство боевой разведки и поддержки боя пехоты. <br>
+                                        Т-80 в игре <br>
+                                        Лёгкий танк | СССР | IV ур.<br>
+                                        Эта машина является коллекционной техникой и не требует исследования. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Валентайн II <span style="color: gold;">(Premium)</span> IV ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/valent-2logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Лёгкий танк 4 уровня, отличается хорошей бронёй, низким силуэтом, отличным обзором и манёвренностью. Однако низкая скорость не позволяет действовать как лёгкий танк, а слабое орудие с ограниченным боезапасом вынуждает выцеливать слабые места и не стрелять понапрасну. <br>
+                                        Валентайн II в игре <br>
+                                        Лёгкий танк | СССР | IV ур.<br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>А-20 V ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/a20_logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        А-20 — советский опытный лёгкий танк. Создавался в 1939 году как улучшенная и более бронированная версия танка БТ-7. К 1940 году был выпущен один опытный образец танка, но до производства дело не дошло, так как от него отказались в пользу Т-34. <br>
+                                        А-20 в игре <br>
+                                        Лёгкий танк | СССР | V ур.<br>
+                                        Предшественник среднего танка Т-34. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-50 V ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t-50 logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-50 — советский лёгкий танк периода Великой Отечественной войны. Разработан в 1940 году на заводе № 174 в Ленинграде под руководством С. А. Гинзбурга. Также в его создании принимали активное участие конструкторы И. С. Бушнев и Л. С. Троянов. <br>
+                                        Т-50 в игре <br>
+                                        Лёгкий танк | СССР | V ур.<br>
+                                        КОЛЛЕКЦИОННАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>МТ-25 VI ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/mt-25.logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Эскизный проект лёгкого колёсно-гусеничного танка. Эскизные работы были закончены в феврале 1943 года. Главной особенностью была конструкция подвески — все опорные катки являлись ведущими. Прототип построен не был. <br>
+                                        МТ-25 в игре <br>
+                                        Лёгкий танк | СССР | VI ур.<br>
+                                        Предшественник лёгкого танка ЛТГ. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-50-2 <span style="color: gold;">(Premium)</span> VI ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t50-2logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Т-50-2 — лёгкий танк конструкции Кировского завода в Ленинграде. В начале 1940 года было принято решение о разработке нового лёгкого танка на замену Т-26. Осенью, после изучения конструкции немецкого среднего танка Pz.Kpfw.III, тактико-технические требования были доработаны. Существенным дополнением стало требование установки командирской башенки кругового обзора, а также снятие с командира функций наводчика или заряжающего. Окончательные требования были сформулированы в ноябре 1940 года, а разрабатываемый танк получил обозначение Т-50. В начале 1941 года Кировским заводом был построен и прошёл испытания опытный образец, но на вооружение принят не был. Предпочтение было отдано Т-50 конструкции завода №174. <br>
+                                        Т-50-2 в игре <br>
+                                        Лёгкий танк | СССР | VI ур.<br>
+                                        НАГРАДНАЯ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>ЛТГ VII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/ltg,logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Лёгкий танк Гавалова — проект лёгкого танка конструктора И. В. Гавалова, разработанный в 1944 году. <br>
+                                        ЛТГ в игре <br>
+                                        Лёгкий танк | СССР | VII ур.<br>
+                                        Предшественник лёгкого танка ЛТТБ. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>ЛТТБ VIII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/lttb.logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Проект лёгкого танка. Разработка машины велась в начале 1944 года на заводе № 174. Работы завершились на стадии эскизного проектирования и обсуждения тактико-технических требований. <br>
+                                        ЛТГ в игре <br>
+                                        Лёгкий танк | СССР | VIII ур.<br>
+                                        Предшественник лёгкого танка Т-54 облегчённый. Имеется переход на средний танк Т-54 <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>ЛТ-432 <span style="color: gold;">(Premium)</span> VIII ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/lt-432logo.png" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        В начале 60-х во ВНИИ-100 разработали несколько проектов машин на базе танка Объект 432, в компоновочной схеме которых, кроме экипажа, предусматривалось дополнительное размещение десанта. Машина не изготавливалась, существовал только эскизный проект. <br>
+                                        ЛТ-432 в игре <br>
+                                        Лёгкий танк | СССР | VIII ур.<br>
+                                        ПРЕМИУМ ТЕХНИКА <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-54 облегчённый IX ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/t54logo.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Проект облегчённого варианта среднего танка Т-54. Работы над машиной начались в мае 1949 года. Предполагалось, что данная машина, благодаря повышенной проходимости и манёвренности, сможет быть использована для задач, выполнение которых для обычных серийных танков Т-54 было нецелесообразно. Однако пока шло обсуждение проекта, Т-54 образца 1949 года был доработан и выпущен серийно, и необходимости в облегчённом среднем танке больше не было. <br>
+                                        Т-54 облегчённый в игре <br>
+                                        Прозвища в игре - Облегчёнка
+                                        Лёгкий танк | СССР | IX ур.<br>
+                                        Предшественник лёгкого танка Т-100 ЛТ. <br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="well clearfix">
+                                <div class="col-lg-3 col-md-2 text-center">
+                                    <a href="#"><h3>Т-100 ЛТ X ур.</h3></a>
+                                    <a href="#"><img class="img-thumbnai" src="assets/img/img-USSR/lungs-tanks.USSR/logo-t100lt.jpg" alt=""></a>
+                                </div>
+                                <div class="col-lg-9 col-md-10">
+                                    <p>
+                                        Лёгкий танк с комплексом Т-100 (внутреннее обозначение — 64992) — советский эскизный проект ракетного танка. Разработан во ВНИИ-100. В середине 1960-х годов с СССР были развёрнуты работы по созданию нового лёгкого авиадесантного танка, максимально унифицированного с лёгкими машинами. Наиболее подходящей базой для танка оказалась опытная боевая машина пехоты «Объект 765». Работы были поручены ВНИИ-100. Комплексом вооружения занималось ГСКБ-47. Компоновкой и установкой в качестве основного вооружения комплекса Т-100 руководил Л.С. Троянов. <br>
+                                        Т-100 ЛТ в игре <br>
+                                        Прозвища в игре - Тстолёт
+                                        Лёгкий танк | СССР | X ур.<br>
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <a href="#" class="btn btn-lg btn-warning pull-right">Подробнее </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="margin_8"></div>
+
+      <h2 style="text-align: center;">Отзывы</h2>
+      <hr>
+      <h5 style="text-align: center;">Если ты уже дошел сюда то пожалуйста оставь отзыв.</h5>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Ваше имя" class="form-control input-lg">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control"></textarea>
+        </div>
+        <button class="btn btn-lg ">Отправить</button>
+      </form>
+      
+      <div class="margin_8"></div>
+ 
+      <!--Container footer-->
+      <footer>
+        <div class="container">
+          <p class="text-center"><a href="http://ru.wh-db.com">WH-DB.COM</a></p>
+
+        </div>
+      </footer>
+    
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

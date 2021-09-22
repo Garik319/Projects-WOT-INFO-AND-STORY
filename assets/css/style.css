@@ -1,0 +1,242 @@
+.name-header {
+    text-align: center;
+    color: rgba(35, 70, 15, 0.863);
+    font-size: 300%;
+}
+
+.tooltip:hover span {
+    visibility: visible;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: dimgray;
+}
+
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn {
+    padding: 3px 6px;
+    height: 40px;
+    background-color: #16501679;
+    border-radius: 7px;
+}
+
+
+
+.name-button {
+    color: white; 
+}
+
+.image_btn {
+    max-width: 50px;
+    height: auto;
+    float: left;
+}
+
+.caret {
+    float: right;
+}
+
+.margin_8 {
+    margin-top: 8%;
+    
+}
+
+.image-brend-rigth {
+    width: 275px;
+    height: auto;
+    float: right;
+}
+
+.image-brend-left {
+    width: 275px;
+    height: auto;
+    float: left;
+}
+
+.content {
+    background-color: dimgray;
+}
+
+.content h1 {
+    background-color: white;
+    text-align: center;
+}
+
+.content p {
+    color: white;
+    text-align: center;
+}
+
+
+.content h2, h3 {
+    color: white;
+}
+
+.content h5{
+    color: black;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+hr {
+    border-top: 1px solid dimgray;
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.well img {
+    width: 300px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.well {
+    background-color: dimgray;
+    border-radius: 10px;
+    border: solid 3px rgba(30, 255, 0, 0.61);
+}
+
+.row h1 {
+    text-align: center;
+}
+
+.well p {
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 25px;
+}
+
+.nation_image {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+
+
+
+
+
+
+.mc-1 {
+    float: right;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.mc1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+
+
+@media (max-width: 767px) {
+    .image_btn {
+        max-width: 16px;
+        height: auto;
+        float: left;
+        
+    }
+
+    .caret {
+        float: initial;
+    }
+
+    .image-brend-left {
+        width: 136px;
+        height: auto;
+        float: left;
+    }
+
+    .image-brend-rigth {
+        width: 136px;
+        height: auto;
+        float: right;
+    }
+
+    .mc-1 {
+        max-width: 250px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .mc1 {
+        max-width: 250px;
+        height: auto;
+
+    }
+
+    .content h2, h3, h5 {
+        text-align: center;
+    }
+
+    .well img {
+        max-width: 250px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .well p {
+        text-align: center;
+        padding-top: auto;
+        margin-left: auto;
+    }
+    
+    
+}
+
+footer {
+    color: #666;
+    background-color:dimgray;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: darkorange;
+}
+
+footer a:hover {
+    color: #efefef;
+}
